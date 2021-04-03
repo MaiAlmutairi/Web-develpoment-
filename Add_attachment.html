@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/logo.ico" type="image/png">
+	<title>ANTENNA CAMPUS</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendor/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="vendor/nice-select/css/nice-select.css">
+	<link rel="stylesheet" href="vendor/animate-css/animate.css">
+	<link rel="stylesheet" href="vendor/flaticon/flaticon.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./js/function.js">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+
+		<!--================Header Menu Area =================-->
+		<header class="header_area">
+			<div class="main_menu">
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<a class="navbar-brand logo_h" href="index.html"><img src="img/logo2.png" alt="" style="height: 50px;"></a>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+						 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+							<ul class="nav navbar-nav menu_nav justify-content-center">
+								<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+								<li class="nav-item submenu dropdown">
+									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+									 aria-expanded="false">Discover & learn</a>
+									<ul class="dropdown-menu">
+										<li class="nav-item"><a class="nav-link" href="./Resources.html">Resources</a></li>
+										<li class="nav-item"><a class="nav-link" href="./Library.html">Student library</a></li>
+										<li class="nav-item"><a class="nav-link" href="./Books.html">General library</a></li>
+										<li class="nav-item"><a class="nav-link" href="./features.html">Network Layer</a></li>
+	
+									
+									</ul>
+								</li>
+								<li class="nav-item"><a class="nav-link" target="_blank" href="./Profile.html">Account</a></li>
+								<li class="nav-item"><a class="nav-link" href="./index.html">Suggestion</a></li>
+								
+								<li class="nav-item"><a class="nav-link" target="_blank" href="./blog.html">Blog</a></li>
+								<li class="nav-item"><a class="nav-link" target="_blank" href="./about.html">About As</a></li>
+								<li class="nav-item"><a class="nav-link" href="./index.html">Contact</a></li>
+								<li class="nav-item" style="padding-top: 5px"><a class="nav-link" href="./login.html"><i class="fa fa-sign-out" 
+								aria-hidden="true" style="font-size: 30px;
+								 color: rgb(172, 172, 172); margin-top: 5px;"></i></a></li>
+								
+							</ul>
+							<ul class="nav navbar-nav navbar-right">
+								<li class="nav-item"><a href="./Add_attachment.html" class="primary_btn text-uppercase"> Add attachment</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</header>
+		<!--================Header Menu Area =================-->
+    
+    <body style="background-color: #e7e7e7;">
+
+        <Div class="attachment_div">
+            <div class="row hero_form">
+                <div class=" col-sm-12 col-md-7" style="padding: 15px; background-color: #fff;">
+                    <div class="front_form">
+                    <h2>Add attachment</h2>
+                </div >
+                    <p class="p_destption">
+                        This is a form that he can upload attachments to it to be reviewed by the addict and then approved and shared with the public                    </p>
+                    <form role="form" method="post" id="reused_form" enctype="multipart/form-data"  >
+                        <div class="form-group">
+                            <label for="name">
+                             *  Attachment title:</label>
+                            <input type="text" class="form-control"
+                            id="name" name="name"  required maxlength="50">
+            
+                        </div>
+                        <div class="form-group">
+                            <label for="text">
+                               * Attachment Type:</label>
+
+                               <div class="dropdown form-control">
+                                <button class="dropbtn"></button>
+                                <div class="dropdown-content">
+                                  <a href="#" class="books_link">Books</a>
+                                  <a href="#" class="exams_link">Exams</a>
+                                  <a href="#" class="resources_link">Resources</a>
+                                  <a href="#" class="other_links">others</a>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="form-group link_attachment" >
+                            <label for="name">
+                             *  Attachment Link:</label>
+                            <input type="text" class="form-control"
+                            id="name" name="name"  required maxlength="50">
+            
+                        </div>
+
+
+                        <div class="form-group">
+                            <label for="name">
+                                Description:</label>
+                            <textarea class="form-control" type="textarea" name="message"
+                            id="message" placeholder="Write a short description about attachment"
+                            maxlength="6000" rows="7"></textarea>
+                        </div>
+            
+                                    <div class="form-group">
+                            <label for="name">
+                                Attachment Upload:</label>
+                            <input type="file" class="form-control" id="image" name="image"  required>
+                        </div>
+            
+            
+            
+            
+                        <button type="submit" class="btn btn-lg  pull-right"
+                         id="btnContactUs" style=" color:#fff;
+                         background-image: linear-gradient(to right, #8252fa 0%, #eca2f1 100%), radial-gradient(circle at top left, #8252fa, #eca2f1);">Send →</button>
+            
+                    </form>
+                   
+                </div>
+
+                <div class=" col-md-5  img_form">
+                    <img class="img-fluid" src="img/f-img1.png" alt="">
+                </div>
+            </div>
+		</Div>
+		
+		<footer>
+			<div class="footer_last">
+				<p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2020</p>
+			</div>
+		</footer>
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="vendor/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="vendor/isotope/imagesloaded.pkgd.min.js"></script>
+	<script src="vendor/isotope/isotope-min.js"></script>
+	<script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="vendor/counter-up/jquery.waypoints.min.js"></script>
+	<script src="vendor/counter-up/jquery.counterup.min.js"></script>
+	<script src="js/mail-script.js"></script>
+	<!--gmaps Js-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+	<script src="js/gmaps.min.js"></script>
+	<script src="js/theme.js"></script>
+	<script src="./js/function.js"></script>
+</body>
+
+</html>
